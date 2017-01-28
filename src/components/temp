@@ -1,0 +1,7 @@
+  <mu-list>
+    <mu-list-item v-for="item in anotherUser.attributes.post" :title="item.attributes.title" :describeText="item.attributes.creater" @click="">
+              <span slot="describe">
+        <span style="color: rgba(0, 0, 0, .87)">{{item.attributes.createrName}}</span>
+      </span>
+    </mu-list-item>
+  </mu-list>
